@@ -40,6 +40,6 @@ antigen apply
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-POWERLINE_NO_SHELL_ABOVE=1
-. /usr/share/zsh/site-contrib/powerline.zsh
-#. ~/repos/powerline/powerline/bindings/zsh/powerline.zsh
+#POWERLINE_NO_SHELL_ABOVE=1
+#. /usr/lib/python2.7/site-packages/powerline/bindings/shell/powerline.sh
+. ~/repos/powerline/powerline/bindings/zsh/powerline.zsh
